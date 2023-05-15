@@ -6,24 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/style_masc_fem.css">
+    <script src="index.js"defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Principal</title>
 </head>
 <body>
     <header class="cabecalho">
-        <picture>
-            <source media="(min-width: 380px)" srcset="./assets/img/icone_64.png">
-            <source srcset="./assets/img/icone_128.png">
-            <img class="icon" src="./assets/img/icone_128.png" alt="Logo da empresa">
-        </picture>
-        <nav>
+        <div class="menu">
             <ul>
-                <li><a href="index.html">Principal</a></li>
-                <li><a href="masculino.html">Masculino</a></li>
-                <li><a href="feminino.html">Feminino</a></li>
-                <li><a href="historia.html">História</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="localizacao.html">Localização</a></li>               
+                <button class="btn-menu btn_btn"><span class="material-symbols-outlined">menu</span></button>
             </ul>
+        </div>
+            <ul>
+                <li>
+                    <span class="material-symbols-outlined" id="footprint">footprint</span>
+                </li>
+            </ul>
+        <nav class="navbar navbar_ativo">
+            <ul class="lista">
+            <li class="menu-itens"><a href="index.html"><span class="material-symbols-outlined">home</span>&emsp;<sup>Home</sup></a></li>
+            <li class="menu-itens"><a href="masculino.html"><span class="material-symbols-outlined">male</span>&emsp;<sup>Male</sup></a></li>
+            <li class="menu-itens"><a href="feminino.html"><span class="material-symbols-outlined">female</span>&emsp;<sup>Female</sup></a></li>
+            <li class="menu-itens"><a href="historia.html"><span class="material-symbols-outlined">menu_book</span>&emsp;<sup>History</sup></a></li>
+            <li class="menu-itens"><a href="contato.html"><span class="material-symbols-outlined">call</span>&emsp;<sup>Contact</sup></a></li>
+            <li class="menu-itens"><a href="localizacao.html"><span class="material-symbols-outlined">location_on</span>&emsp;<sup>Location</sup></a></li>
+            </ul>    
         </nav>
     </header>
     <main>
